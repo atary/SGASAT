@@ -11,7 +11,7 @@ package sga;
 public class Main {
 
     public static void main(String[] args) {
-
+        int x = 5;
         if (args.length != 4) {
             System.err.println("Usage: SGA 1000 100 inFile outFile");
             System.exit(-1);
